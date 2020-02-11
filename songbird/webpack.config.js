@@ -31,7 +31,7 @@ const config = {
         loader: 'eslint-loader',
       },
       {
-        test: /\.(png|svg|jpg|gif)$/,
+        test: /\.(png|svg|jpg|gif|ico)$/,
         use: [
           {
             loader: 'file-loader',

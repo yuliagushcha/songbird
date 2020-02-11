@@ -1,0 +1,84 @@
+.questionContainer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem 1rem;
+  background-color: #303030;
+}
+
+.anonBird {
+  border-radius: 8px;
+}
+
+.birdName {
+  color: white;
+}
+
+.playerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.player-controls {
+  display: flex;
+  align-items: center;
+  width: 650px;
+  margin-top: 30px;
+}
+
+.play-btn {
+  transition: 0.2s;
+  width: 24px;
+  height: 24px;
+  color: #00bc8c;
+}
+
+.playback-button {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #00bc8c;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.seek {
+  background: red;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.seek[value] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: white;
+  color: #00bc8c;
+  height: 8px;
+}
+
+.seek[value]::-webkit-progress-bar {
+  background-color: white;
+  border-radius: 2px;
+  border: 1px solid lighten(#acacac, 20%);
+  color: #00bc8c;
+}
+
+.seek::-webkit-progress-value {
+  background-color: #00bc8c;
+}
+
+.player-time {
+  display: flex;
+  width: calc(100% - 35px);
+  justify-content: space-between;
+  margin-left: 35px;
+  margin-top: -10px;
+  color: rgb(177, 177, 177);
+}

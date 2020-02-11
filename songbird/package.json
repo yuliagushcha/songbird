@@ -5,9 +5,9 @@
   "main": "src/index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "rm -f -r dist",
-    "build-dev": "webpack -d --mode development",
-    "build-prod": "webpack -p",
+    "clear": "rm -f -r dist",
+    "build-dev": "npm run clear -s && webpack -d --mode development",
+    "build-prod": "npm run clear -s && webpack -p",
     "start": "webpack-dev-server --open --hot --mode development",
     "lint": "eslint ./**/*.jsx ./***/**/*.jsx",
     "fix": "eslint ./**/*.jsx ./***/**/*.jsx --fix"
@@ -18,11 +18,13 @@
     "@babel/polyfill": "^7.8.3",
     "bootstrap": "^4.4.1",
     "lodash": "^4.17.15",
+    "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0",
     "react-h5-audio-player": "^2.3.1",
-    "react-hot-loader": "^4.12.19"
+    "react-hot-loader": "^4.12.19",
+    "react-icons": "^3.9.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
@@ -46,6 +48,7 @@
     "eslint-plugin-react-hooks": "^1.7.0",
     "file-loader": "^5.0.2",
     "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^6.0.0",
     "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.13.1",
     "prettier": "^1.19.1",
