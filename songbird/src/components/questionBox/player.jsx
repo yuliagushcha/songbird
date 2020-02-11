@@ -6,7 +6,7 @@ import { calculateCurrentValue, calculateTotalValue } from '../../utils/utils';
 import './questionBox.css'
 import BirdsData from '../../data/birds';
 
-const a = BirdsData[0][1].audio;
+const a = BirdsData[0][0].audio;
 
 export class AudioPlayer extends Component {
   constructor(props) {

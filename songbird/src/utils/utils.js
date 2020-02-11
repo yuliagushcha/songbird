@@ -15,10 +15,10 @@ export function playCorrect() {
 
 export function calculateTotalValue (length) {
   const minutes = Math.floor(length / 60);
-    const secondsInt = length - minutes * 60;
-    const secondsStr = secondsInt.toString();
-    const seconds = secondsStr.substr(0, 2);
-    const time = `${minutes  }:${  seconds}`
+  const secondsInt = length - minutes * 60;
+  const secondsStr = secondsInt.toString();
+  const seconds = secondsStr.substr(0, 2);
+  const time = `${minutes  }:${  seconds}`
 
   return time
 }
