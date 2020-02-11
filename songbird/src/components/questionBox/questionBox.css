@@ -1,3 +1,9 @@
+hr {
+  width: 90%;
+  height: 1px;
+  background-color: rgb(66, 66, 66);
+}
+
 .questionContainer {
   display: flex;
   justify-content: space-evenly;
@@ -24,7 +30,6 @@
   display: flex;
   align-items: center;
   width: 650px;
-  margin-top: 30px;
 }
 
 .play-btn {

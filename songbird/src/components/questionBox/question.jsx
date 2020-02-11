@@ -9,6 +9,7 @@ export default function Question({ birdName }) {
       <img src="../../assets/images/bird.jpg" alt="Bird" className="anonBird" />
       <div className="playerContainer">
         <h4 className="birdName">{birdName}</h4>
+        <hr />
         <Player />
       </div>
     </section>
