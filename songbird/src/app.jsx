@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
-import Header from './components/header/header';
-import Question from './components/questionBox/question';
+import React from 'react'
+import Root from './components/root'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './index.scss'
 
-class App extends Component {
-  render() {
-    return (
-      <div className="wrapper">
-        <Header />
-        <Question />
-      </div>
-    )
-  }
+function App() {
+  return (
+    <div className="wrapper">
+      <Root />
+    </div>
+  )
 }
 
-export default App;
+export default App

@@ -1,0 +1,30 @@
+.answer {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #303030;
+  border: 1px solid #444;
+  border-radius: 5px;
+  color: #fff;
+  height: calc(100% - 30px);
+}
+
+.answer p {
+  margin: 0px;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.answer img {
+  height: 200px;
+  width: 100%;
+  border-radius: 5px;
+  object-fit: contain;
+}
+
+.answer-container {
+  display: flex;
+}
+
+.answer-bar {
+  width: 100%;
+}

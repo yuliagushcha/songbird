@@ -1,0 +1,21 @@
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+.header-top .logo img {
+  width: 200px;
+  height: 55px;
+}
+
+.header-top h5 {
+  color: #fff;
+}
+
+@media (max-width: 340px) {
+  .header-top h5 {
+    font-size: 17px;
+  }
+}

@@ -1,35 +1,7 @@
-hr {
-  width: 90%;
-  height: 1px;
-  background-color: rgb(66, 66, 66);
-}
-
-.questionContainer {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 1rem 1rem;
-  background-color: #303030;
-}
-
-.anonBird {
-  border-radius: 8px;
-}
-
-.birdName {
-  color: white;
-}
-
-.playerContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
 .player-controls {
   display: flex;
   align-items: center;
-  width: 650px;
+  margin-top: 30px;
 }
 
 .play-btn {
@@ -55,6 +27,7 @@ hr {
 }
 
 .seek {
+  background: red;
   width: 100%;
   margin-right: 20px;
 }
@@ -62,16 +35,19 @@ hr {
 .seek[value] {
   -webkit-appearance: none;
   appearance: none;
-  background-color: rgb(185, 185, 185);
-  height: 6px;
+  background-color: white;
+  color: #00bc8c;
+  height: 8px;
 }
 
 .seek[value]::-webkit-progress-bar {
+  background-color: white;
   border-radius: 2px;
+  color: #00bc8c;
 }
 
 .seek::-webkit-progress-value {
-  background: linear-gradient(to right, rgb(0, 188, 140) 0%, rgb(61, 133, 140) 100%) !important;
+  background: linear-gradient(to right, rgb(0, 188, 140) 0%, rgb(61, 133, 140) 100%);
 }
 
 .player-time {
@@ -80,5 +56,12 @@ hr {
   justify-content: space-between;
   margin-left: 35px;
   margin-top: -10px;
-  color: rgb(177, 177, 177);
+}
+
+.player-time .start-time {
+  margin-left: 18px;
+}
+
+.player-time .end-time {
+  margin-right: 18px;
 }

@@ -13,7 +13,7 @@ export const birdsData = [
       name: 'Попугай',
       species: 'Poicephalus meyeri',
       description: 'Длина от 9,5 см до 1 м. Оперение — мелкое, довольно редкое. Большинство попугаев очень ярко окрашены, причём преобладающим цветом обыкновенно является яркий травянисто-зелёный. Населяют субтропики и тропики, наиболее многочисленны в Австралийской фаунистической области (вероятный центр возникновения отряда). Распространены также в юго-восточной Азии, Индии, Западной Африке, Южной Америке и Центральной Америке.',
-      image: 'https://https://live.staticflickr.com/8542/8692265698_3874633904_n.jpg',
+      image: 'https://live.staticflickr.com/8542/8692265698_3874633904_n.jpg',
       audio: 'https://www.xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC346991-LS102856%20Meyer%27s%20Parrots%20calls%20A.mp3'
     },
     {
@@ -21,7 +21,7 @@ export const birdsData = [
       name: 'Гусь',
       species: 'Anser anser',
       description: 'Гуси отличаются клювом, имеющим при основании большую высоту, чем ширину, и оканчивающимся ноготком с острым краем. По краям клюва идут мелкие зубчики. Гуси живут на луговых и болотистых пространствах, некоторые на берегах морей; хорошо ходят и бегают; летают быстро, но плавают и ныряют хуже уток.',
-      image: 'https:https://live.staticflickr.com/8558/28687238344_2ef3c806c9_n.jpg',
+      image: 'https://live.staticflickr.com/8558/28687238344_2ef3c806c9_n.jpg',
       audio: 'https://www.xeno-canto.org/sounds/uploaded/EHGWCIGILC/XC438967-Goose_Magpie_SD552_Chong_Swamp_DawnA_1stSep18.mp3'
     },
     {
@@ -88,7 +88,7 @@ export const birdsData = [
       species: 'Gyps fulvus',
       description: 'Длина тела 93—110 см, размах крыльев 234—269 см. Общий окрас туловища бурый, несколько более светлый с рыжеватым оттенком снизу. Маховые и рулевые тёмно-бурые, почти чёрные. Радужина желтовато-коричневая, восковица сероватая, ноги тёмно-серые. Парящая птица, с ровной поверхности с трудом поднимающаяся в воздух. В воздухе втягивает в себя шею.',
       image: 'https://live.staticflickr.com/65535/49130743612_51a78f3115_n.jpg',
-      audio: 'https:data-xc-filepath="//www.xeno-canto.org/sounds/uploaded/SDPCHKOHRH/XC423958-Vautour%20fauve%20gemissement.mp3"'
+      audio: 'https://www.xeno-canto.org/sounds/uploaded/SDPCHKOHRH/XC423958-Vautour%20fauve%20gemissement.mp3'
     },
     {
       id: 6,
@@ -229,7 +229,7 @@ export const birdsData = [
       name: 'Колпица',
       species: 'Platalea leucorodia',
       description: 'Обыкновенная колпица достигает длины 1 м, веса в 1,2-2 кг. Размах крыльев 115—135 см. Окраска обыкновенной колпицы белая, клюв и ноги чёрные. В брачном наряде у колпиц развивается хохолок на затылке и охристое пятно в основании шеи.',
-      image: 'https://www.flickr.com/photos/128217494@N08/20704373818/in/photolist-RQw9gG-xxzk1o-2hfjya1-RwoVbN-2ewNkn1-VpsT4U-sNLa3d-2gh61ak-27rg6cL-MTnR9h-QtZnXq-2bdjpfF-24TVfgY-WR8BM3-NpNnSs-TmgdhF-UzU2xg-2bAYZcR-2hv8BnF-2gcGdm9-YDGekF-2anifyA-2dfkktH-QRQA45-QXs9gw-2ak2HBF-258hXx6-2apRFSU-TSJP2W-Va3F1D-NQgo7p-UwePkW-2dxziNV-P9S8ho-UzU2HX-21nhD9U-MtjvzN-LX93PF-cM3WuL-NoF9sU-22qsv9t-23xQMNe-JiZLXP-H2oA1N-2996GaD-26JdKKg-2d6Rvhv-2hKAVq1-NQNFWQ-2hviqNL/',
+      image: 'https://live.staticflickr.com/65535/49136387062_aa63405f19_n.jpg',
       audio: 'https://www.xeno-canto.org/sounds/uploaded/SDPCHKOHRH/XC380956-cri%20spatule.mp3'
     },
     {
