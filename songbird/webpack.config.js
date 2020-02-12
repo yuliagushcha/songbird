@@ -14,7 +14,7 @@ function NothingPlugin() {
 const config = {
   entry: './src/index.jsx',
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'dist/main/app'),
     filename: 'bundle.js',
   },
   module: {
@@ -36,7 +36,7 @@ const config = {
           {
             loader: 'file-loader',
             options: {
-              outputPath: 'assets/images',
+              outputPath: '../../assets/images',
               name: '[name].[ext]'
             }
           },
@@ -121,7 +121,7 @@ const config = {
       filename: 'index.html'
     }),
     new CopyWebpackPlugin([
-      {from: './src/assets', to: './assets'},
+      {from: './src/assets', to: '../../assets'},
     ]),
     new ErrorOverlayPlugin(),
   ],
